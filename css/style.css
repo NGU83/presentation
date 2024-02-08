@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+background-color: black;
+color: white;
+font-family: 'Times New Roman', Times, serif;
+font-size: 16px;
+}
+
+main {
+    margin-top: 100px;
+}
+
+.card{
+    margin-top: 10px;
+    background: black;
+}
+
+/*
+Navigation de l'offsetCanvas
+*/
+
+.menu{
+    display: inline-block;
+}
+
+.menu ul{
+    list-style-type: none;
+    font-weight: bold;
+}
+
+.menuul li{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    outline: none;
+    padding: 2px 1px 0;
+}
+
+.menu ul li a:link {
+    color: white;
+}
+  
+.menu ul li a:visited {
+    color: white;
+}
+  
+.menu ul li a:focus {
+    border-bottom: 1px solid;
+    background: #e4c698;
+}
+  
+.menu ul li a:hover {
+    border-bottom: 1px solid;
+    background: rgb(161, 158, 158);
+}
+  
+.menu ul li a:active {
+    background: #e4c698;
+    color: #ed2c0a;
+}
+
+fieldset legend a{
+    text-decoration: none;
+    color: white;
+}
+
+fieldset legend a:hover {
+    border-bottom: 1px solid;
+    background: rgb(161, 158, 158);
+}
